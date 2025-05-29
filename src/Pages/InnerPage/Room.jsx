@@ -55,15 +55,11 @@ const Room = () => {
             {/* Section Logo */}
             <div className="flex items-center justify-center space-x-2">
               <hr className="w-[100px] h-[1px] bg-lightGray dark:bg-gray text-lightGray dark:text-gray" />
-              <img
-                src="/images/inner/inner-logo.png"
-                alt="room_section_logo"
-                className="w-[50px] h-[50px]"
-              />
+              <img src="/images/home-1/logo.png" alt="room_section_logo" />
               <hr className="w-[100px] h-[1px] bg-lightGray dark:bg-gray text-lightGray dark:text-gray" />
             </div>
             <h1 className="text-[22px] sm:text-2xl md:text-3xl 2xl:text-[38px] leading-7 sm:leading-8 md:leading-9 lg:leading-[42px] 2xl:leading-[52px] text-lightBlack dark:text-white mt-[30px] mb-[24px] font-Garamond font-semibold uppercase">
-              Royella’s Rooms & Suites
+              Lewi’s Rooms & Suites
             </h1>
           </div>
           {/* Rooms Slider Container */}
@@ -78,15 +74,15 @@ const Room = () => {
               <div className="relative">
                 <div className="overflow-hidden">
                   <img
-                    src="/images/inner/roms-1.jpg"
+                    src="/images/rooms/standard-single.jpg"
                     className="w-full h-full object-cover group-group-hover:scale-110 transition-all duration-300"
                     alt=""
                   />
                 </div>
                 <div className="px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] ">
-                  <span className="">$450</span>
+                  <span className="">65</span>
                   <span className="mx-2">|</span>
-                  <span>Night</span>
+                  <span>Day</span>
                 </div>
 
                 <Link to={"/room_details"}>
@@ -107,11 +103,11 @@ const Room = () => {
                       state={{ price: "450", title: "Delux Family Rooms" }}
                     >
                       <h2 className="text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                        Delux Family Rooms
+                        Standard Single
                       </h2>
                     </Link>
                     <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
-                      1500 SQ.FT/Rooms
+                      7 m² Size
                     </p>
                   </div>
                   <div className="  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5">
@@ -123,7 +119,7 @@ const Room = () => {
                             alt=""
                           />
                           <span className="ml-[10px] text-gray dark:text-lightGray">
-                            2 King Bed
+                            1 King Bed
                           </span>
                         </span>
                       </div>
@@ -160,15 +156,15 @@ const Room = () => {
               <div className="relative">
                 <div className="overflow-hidden">
                   <img
-                    src="/images/inner/room-2.jpg "
+                    src="/images/rooms/Deluxe-Twin.jpg "
                     className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
                     alt=""
                   />
                 </div>
                 <div className="px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] ">
-                  <span className="">$550</span>
+                  <span className="">120</span>
                   <span className="mx-2">|</span>
-                  <span>Night</span>
+                  <span>Day</span>
                 </div>
                 <Link to={"/room_details"}>
                   <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
@@ -188,11 +184,11 @@ const Room = () => {
                       state={{ price: "550", title: "Double Suite Rooms" }}
                     >
                       <h2 className="text-2xl lg:text-[24px] xl:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                        Double Suite Rooms
+                        Standard Twin
                       </h2>
                     </Link>
                     <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
-                      1500 SQ.FT/Rooms
+                      7 m² Size
                     </p>
                   </div>
                   <div className="  border-t-[1px] border-[#e8e8e8] dark:border-[#424242]  py-5">
@@ -494,7 +490,7 @@ const Room = () => {
                   <span className="mx-2">|</span>
                   <span>Night</span>
                 </div>
-               <Link to={"/room_details"}>
+                <Link to={"/room_details"}>
                   <button className="flex items-center justify-center text-[15px] leading-[38px] bg-khaki  absolute bottom-0 -left-40 px-6 py-1 text-white  group-hover:left-0 transition-all duration-300">
                     View Details{" "}
                     <BsArrowRight className="w-4 h-4 ml-2  text-white" />{" "}

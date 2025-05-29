@@ -27,7 +27,7 @@ const Testimonial = () => {
   });
 
   return (
-    <section className="bg-[url('/images/home-1/testi-bg.jpg')] bg-[rgba(30,30,30,0.4)] dark:bg-[rgba(30,30,30,0.6)] bg-opacity-40 grid items-center justify-center bg-no-repeat bg-cover">
+    <section className=" bg-[#1e1e1ed5] dark:bg-[#1e1e1e99]  grid items-center justify-center ">
       <div className="Container py-20 lg:py-[120px]">
         {/* section title */}
         <div
@@ -38,20 +38,14 @@ const Testimonial = () => {
           {/* Section logo */}
           <div className="flex items-center justify-center space-x-2 mb-4 lg:mb-5">
             <hr className="w-[100px] h-[1px]  text-[#473f39] " />
-            <img
-              src="/images/home-1/section-shape1.png"
-              alt="room_section_logo"
-              className="w-[50px] h-[50px]"
-            />
+            <img src="/images/home-1/logo2.png" alt="room_section_logo" />
             <hr className="w-[100px] h-[1px]  text-[#473f39] " />
           </div>
           <h1 className="text-xl sm:text-2xl md:text-3xl 2xl:text-[38px] leading-[42px] 2xl:leading-[52px] text-white mt-[20px] mb-[16px] font-Garamond font-semibold uppercase">
-            Ustomer’s TestimonialL
+            What our Guests say
           </h1>
           <p className="font-Lora leading-7 lg:leading-[26px] text-white font-normal text-sm sm:text-base">
-            Proactively morph optimal infomediaries rather than accurate
-            expertise. Intrinsicly progressive resources rather than
-            resource-leveling
+            Customer’s Testimonial
           </p>
         </div>
 
@@ -90,10 +84,12 @@ const Testimonial = () => {
                 </li>
               </ul>
               <p className="font-Lora text-sm sm:text-base leading-[26px] text-gray dark:text-lightGray font-normal xl:text-lg mt-[30px] italic mb-[45px] before:absolute before:h-[30px] before:left-0 before:bottom-[-36px] before:bg-khaki before:w-[1px] relative">
-                “Professionally repurpose flexible testing procedures via molla
-                in customer service. Dynamically reconceptualize value-added the
-                systems before manufactured products. Enthusiastically
-                envisioneer emerging best”
+                “We loved this place. After 10 days of dust and simple lodges we
+                really enjoyed staying in the big and nice room on the water
+                front (monkeys and waterbirds came very close). The staff is
+                extremely friendly and helpful, the food of high standard. We
+                will visit beautiful Ethiopia again and will return to Lewi
+                Hotel.”
               </p>
               <span className="w-[1px] h-[25px] bg-[#ddd]"></span>
 
@@ -106,12 +102,12 @@ const Testimonial = () => {
 
                 <div className="">
                   <h4 className="text-base lg:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond">
-                    Maicle clork
+                    Downey Sarah
                   </h4>
-                  <p className="pt-1 text-sm md:text-base leading-[26px] font-normal text-gray dark:text-lightGray flex items-center">
+                  {/* <p className="pt-1 text-sm md:text-base leading-[26px] font-normal text-gray dark:text-lightGray flex items-center">
                     <span className="w-5 h-[1px] inline-block text-khaki bg-khaki mr-2"></span>
                     Manger
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -157,28 +153,30 @@ const Testimonial = () => {
                   </li>
                 </ul>
                 <p className="font-Lora text-sm sm:text-base leading-[26px] text-gray dark:text-lightGray font-normal xl:text-lg mt-[30px] italic mb-[45px] before:absolute before:h-[30px] before:left-0 before:bottom-[-36px] before:bg-khaki before:w-[1px] relative">
-                  “Professionally repurpose flexible testing procedures via
-                  molla in customer service. Dynamically reconceptualize
-                  value-added the systems before manufactured products.
-                  Enthusiastically envisioneer emerging best”
+                  “We loved this place. After 10 days of dust and simple lodges
+                  we really enjoyed staying in the big and nice room on the
+                  water front (monkeys and waterbirds came very close). The
+                  staff is extremely friendly and helpful, the food of high
+                  standard. We will visit beautiful Ethiopia again and will
+                  return to Lewi Hotel.”
                 </p>
                 <span className="w-[1px] h-[25px] bg-[#ddd]"></span>
 
                 <div className="flex items-center space-x-6 ">
-                  <img
+                  {/* <img
                     src="/images/home-1/testi-author-2.png"
                     className="w-[65px] h-[65px]"
                     alt=""
-                  />
+                  /> */}
 
                   <div className="">
                     <h4 className="text-base lg:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond">
-                      Marina Trange
+                      Downey Sarah
                     </h4>
-                    <p className="pt-1 text-sm md:text-base leading-[26px] font-normal text-gray dark:text-lightGray flex items-center">
+                    {/* <p className="pt-1 text-sm md:text-base leading-[26px] font-normal text-gray dark:text-lightGray flex items-center">
                       <span className="w-5 h-[1px] inline-block text-khaki bg-khaki mr-2"></span>
                       Manger
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -218,28 +216,30 @@ const Testimonial = () => {
                   </li>
                 </ul>
                 <p className="font-Lora text-sm sm:text-base leading-[26px] text-gray dark:text-lightGray font-normal xl:text-lg mt-[30px] italic mb-[45px] before:absolute before:h-[30px] before:left-0 before:bottom-[-36px] before:bg-khaki before:w-[1px] relative">
-                  “Professionally repurpose flexible testing procedures via
-                  molla in customer service. Dynamically reconceptualize
-                  value-added the systems before manufactured products.
-                  Enthusiastically envisioneer emerging best”
+                  “Almost one year in Lewi resort, the first time in Hawassa I
+                  stayed in another hotel, but when I saw Lewi resort I changed
+                  immediately, people are very nice, all staff gave the
+                  necessary support I request The room was beautiful and
+                  well-equipped, room was large with a sitting area, many
+                  choices are available.”
                 </p>
                 <span className="w-[1px] h-[25px] bg-[#ddd]"></span>
 
                 <div className="flex items-center space-x-6 ">
-                  <img
+                  {/* <img
                     src="/images/home-1/call-do-action-img.png"
                     className="w-[65px] h-[65px]"
                     alt=""
-                  />
+                  /> */}
 
                   <div className="">
                     <h4 className="text-base lg:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond">
-                      John D. Alexon
+                      Omer A
                     </h4>
-                    <p className="pt-1 text-sm md:text-base leading-[26px] font-normal text-gray dark:text-lightGray flex items-center">
+                    {/* <p className="pt-1 text-sm md:text-base leading-[26px] font-normal text-gray dark:text-lightGray flex items-center">
                       <span className="w-5 h-[1px] inline-block text-khaki bg-khaki mr-2"></span>
                       Manger
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
@@ -279,28 +279,30 @@ const Testimonial = () => {
                   </li>
                 </ul>
                 <p className="font-Lora text-sm sm:text-base leading-[26px] text-gray dark:text-lightGray font-normal xl:text-lg mt-[30px] italic mb-[45px] before:absolute before:h-[30px] before:left-0 before:bottom-[-36px] before:bg-khaki before:w-[1px] relative">
-                  “Professionally repurpose flexible testing procedures via
-                  molla in customer service. Dynamically reconceptualize
-                  value-added the systems before manufactured products.
-                  Enthusiastically envisioneer emerging best”
+                  “We were on an overland trip from South Africa to Ethiopia and
+                  were fortunate to find this resort. After a hectic one month
+                  journey we greatly appreciated the facilities needed for
+                  thorough R&R. A picturesque lakeside terrace with refreshment
+                  service and extensive breakfast on offer, massage, super pool,
+                  first class restaurant, efficient staff and more.”
                 </p>
                 <span className="w-[1px] h-[25px] bg-[#ddd]"></span>
 
                 <div className="flex items-center space-x-6 ">
-                  <img
+                  {/* <img
                     src="/images/home-1/testi-author.png"
                     className="w-[65px] h-[65px]"
                     alt=""
-                  />
+                  /> */}
 
                   <div className="">
                     <h4 className="text-base lg:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond">
-                      Brandon Mack
+                      Henry d
                     </h4>
-                    <p className="pt-1 text-sm md:text-base leading-[26px] font-normal text-gray dark:text-lightGray flex items-center">
+                    {/* <p className="pt-1 text-sm md:text-base leading-[26px] font-normal text-gray dark:text-lightGray flex items-center">
                       <span className="w-5 h-[1px] inline-block text-khaki bg-khaki mr-2"></span>
                       Manger
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>

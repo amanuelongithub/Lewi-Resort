@@ -1,7 +1,7 @@
 const HotelAndFacilities = () => {
   return (
     <section className="bg-lightBlack z-[1]">
-      <div className="py-[110px] bg-[url('/images/home-1/section-shape2.png')] bg-no-repeat bg-top bg-opacity-[0.07]">
+      <div className="py-[110px] ">
         <div className="Container">
           <div
             className=" text-center mx-auto px-5 sm:px-8 md:px-[80px] lg:px-[120px] xl:px-[200px] 2xl:px-[335px] "
@@ -12,9 +12,9 @@ const HotelAndFacilities = () => {
             <div className="flex items-center justify-center space-x-2 mb-4 lg:mb-5">
               <hr className="w-[100px] h-[1px] bg-[#3b3b3b] text-[#3b3b3b] " />
               <img
-                src="/images/home-1/section-shape1.png"
+                src="/images/home-1/logo2.png"
                 alt="room_section_logo"
-                className="w-[50px] h-[50px]"
+                className=""
               />
               <hr className="w-[100px] h-[1px] bg-[#3b3b3b] text-[#3b3b3b] " />
             </div>

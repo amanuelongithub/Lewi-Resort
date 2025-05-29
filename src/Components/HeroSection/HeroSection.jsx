@@ -63,8 +63,8 @@ const HeroSection = () => {
             </div>
             {/* contact info */}
             <div className="w-[221px] h-[50px] border-white border hidden md:flex items-center justify-center absolute left-0 top-1/2 -rotate-90">
-              <BiPhoneCall className="w-5 h-5 mr-2 text-khaki" /> +980 123 4567
-              890
+              <BiPhoneCall className="w-5 h-5 mr-2 text-khaki" /> +251 930 10 83
+              59
             </div>
           </div>
         </SwiperSlide>
@@ -145,8 +145,8 @@ const HeroSection = () => {
               </Link>
             </div>
             <div className="w-[221px] h-[50px] border-white border hidden md:flex items-center justify-center absolute left-0 top-1/2 -rotate-90">
-              <BiPhoneCall className="w-5 h-5 mr-2 text-khaki" /> +980 123 4567
-              890
+              <BiPhoneCall className="w-5 h-5 mr-2 text-khaki" /> +251 930 10 83
+              59
             </div>
           </div>
         </SwiperSlide>

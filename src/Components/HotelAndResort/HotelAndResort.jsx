@@ -32,19 +32,19 @@ const HotelAndResort = () => {
             ref={sliderRef}
           >
             {/* slider 1 */}
-            <div className="keen-slider__slide number-slide1 ">
+            <div className="keen-slider__slide number-slide1 mt-44 md:mt-6">
               <div className="">
                 <img
-                  src="/images/home-1/Hotel1.jpg"
+                  src="/images/home-1/Lewi-Resort-Hawassa-Resort-View-1.jpg"
                   className="h-[85%] lg:h-[90%]"
                   alt="Hotel-slider-image"
                 />
               </div>
             </div>
-            <div className="keen-slider__slide number-slide1 ">
+            <div className="keen-slider__slide number-slide1 mt-44 md:mt-16">
               <div className="">
                 <img
-                  src="/images/home-1/Hotel.png"
+                  src="/images/home-1/Lewi-Resort-Wolaita-Sodo-Exterior-2.jpg"
                   className="h-[85%] md:h-[100%] lg:h-[90%]"
                   alt="Hotel-slider-image"
                 />
@@ -54,17 +54,18 @@ const HotelAndResort = () => {
 
           {/* text */}
           <div className="flex-1 font-Garamond  mt-5 md:mt-0 md:pl-8 p-5  lg:pl-10 2xl:pl-14">
-            <h5 className="text-base text-khaki leading-[26px] font-medium">
-              LUXURY HOTEL AND RESORT
+            <h5 className="text-base text-khaki leading-[26px] font-medium uppercase">
+              Lewi Hotels & Resorts
             </h5>
-            <h1 className="text-[22px] sm:text-2xl md:text-[21px]  xl:text-3xl 2xl:text-[38px] leading-6 md:leading-7 lg:leading-[30px] 2xl:leading-[44px] text-lightBlack dark:text-white font-semibold my-4">
+            {/* <h1 className="text-[22px] sm:text-2xl md:text-[21px]  xl:text-3xl 2xl:text-[38px] leading-6 md:leading-7 lg:leading-[30px] 2xl:leading-[44px] text-lightBlack dark:text-white font-semibold my-4">
               LUXURY BEST HOTEL IN CITY CALIFORNIA, USA
-            </h1>
+            </h1> */}
             <p className="text-sm xl:text-base md:text-sm lg:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px]">
-              Rapidiously myocardinate cross-platform intellectual capital after
-              marketing model. Appropriately create interactive infrastructures
-              after maintainable are Holisticly facilitate stand-alone inframe
-              Compellingly create premier open data through economically.
+              After Lewi Resort opened its doors, many of our guests have
+              personally discovered the beauty of Hawassa and Wolayta Sodo. Lewi
+              is a sparkling gem on the marvelous face of Hawassa and Wolayta
+              Sodo, and welcomes you to a refreshing new experience with our
+              professional staff.
             </p>
             <div className="flex items-center mt-4 md:mt-3 lg:mt-4">
               <div>

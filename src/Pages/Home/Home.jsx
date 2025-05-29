@@ -14,12 +14,12 @@ const Home = () => {
       <HeroSection />
       <Rooms />
       <HotelAndResort />
-      <HotelAndFacilities />
-      <Action />
-      <Facilities />
+      {/* <HotelAndFacilities /> */}
+      {/* <Action /> */}
+      {/* <Facilities /> */}
       <Offers />
       <Testimonial />
-      <LatestBlog />
+      {/* <LatestBlog /> */}
     </>
   );
 };

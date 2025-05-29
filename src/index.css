@@ -34,7 +34,7 @@
 }
 /* hover animation */
 .hover-animBg {
-  @apply relative z-[1] after:absolute after:inset-0 after:content-[""] after:bg-[#C19C67] after:rounded-full after:w-full after:h-full after:scale-0 after:transition-all after:duration-500 after:z-[-1] after:top-0 after:left-0 hover:after:scale-[1];
+  @apply relative z-[1] after:absolute after:inset-0 after:content-[""] after:bg-khaki after:rounded-full after:w-full after:h-full after:scale-0 after:transition-all after:duration-500 after:z-[-1] after:top-0 after:left-0 hover:after:scale-[1];
 }
 /* primary button */
 .btn-primary {

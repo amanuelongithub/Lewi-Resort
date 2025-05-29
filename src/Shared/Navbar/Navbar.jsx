@@ -49,18 +49,18 @@ const Navbar = () => {
           <div className=" w-48 lg:w-52 lg:p-4 ">
             <Link to="/">
               <img
-                src="/images/home-1/logo.png"
+                src="/images/home-1/logo2.png"
                 className="hidden lg:block w-full"
                 alt="website_logo"
               />
             </Link>
           </div>
           {/* small screen size */}
-          <div className="px-3 w-full lg:hidden flex justify-between text-lightBlack lg:text-white dark:text-white bg-khaki h-[70px]  items-center  p-3">
+          <div className="px-3 w-full lg:hidden flex justify-between text-lightBlack lg:text-white dark:text-white bg-black h-[70px]  items-center  p-3">
             <div className=" w-28  ">
               <Link to="/">
                 <img
-                  src="/images/home-1/brand-1.png"
+                  src="/images/home-1/logo2.png"
                   className="block lg:hidden "
                   alt="Royella_website_logo"
                 />

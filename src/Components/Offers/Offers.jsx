@@ -37,10 +37,10 @@ const Offers = () => {
               OFFERS
             </h5>
             <h1 className="text-xl sm:text-3xl 2xl:text-[38px] leading-7 sm:leading-8 md:leading-[38px] lg:leading-[44px] text-lightBlack dark:text-white font-semibold">
-              ROYELLA’S LIMITED PERIOD BEST OFFERS
+              LEWI’S LIMITED PERIOD BEST OFFERS
             </h1>
           </div>
-          <div className="flex items-center lg:space-x-5  space-x-3">
+          {/* <div className="flex items-center lg:space-x-5  space-x-3">
             <button
               className="lg:w-[50px] w-[30px] h-[30px] lg:h-[50px]  flex items-center justify-center border-[1px] border-[#cccbc8] text-[#cccbc8] hover:bg-khaki hover:border-none group"
               disabled
@@ -56,7 +56,7 @@ const Offers = () => {
             >
               <BsChevronRight className="w-5 h-5 text-[#cccbc8]  group-hover:text-white" />
             </button>
-          </div>
+          </div> */}
         </div>
 
         <hr className="text-[#e8e8e8] dark:text-[#383838] my-[40px]" />
@@ -73,7 +73,7 @@ const Offers = () => {
               >
                 <div className="relative">
                   <img
-                    src="/images/home-1/offers-1.jpg"
+                    src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
                     className="w-full h-full object-cover"
                     alt=""
                   />
@@ -109,7 +109,7 @@ const Offers = () => {
               >
                 <div className="relative">
                   <img
-                    src="/images/home-1/offers-2.jpg"
+                    src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
                     className="w-full h-full object-cover"
                     alt=""
                   />
@@ -145,7 +145,7 @@ const Offers = () => {
               >
                 <div className="relative">
                   <img
-                    src="/images/home-1/offers-3.jpg"
+                    src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
                     className="w-full h-full object-cover"
                     alt=""
                   />
@@ -181,7 +181,7 @@ const Offers = () => {
               >
                 <div className="relative">
                   <img
-                    src="/images/home-1/offers-4.jpg"
+                    src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
                     className="w-full h-full object-cover"
                     alt=""
                   />
