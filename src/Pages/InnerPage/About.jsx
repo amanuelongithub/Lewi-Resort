@@ -55,7 +55,7 @@ const About = () => {
               data-aos-duration="1000"
             >
               <img
-                src="/images/inner/about-thumb.jpg"
+                src="/images/home-1/Lewi-Resort-Wolaita-Sodo-Exterior-2.jpg"
                 alt=""
                 className="w-full h-full"
               />
@@ -68,17 +68,17 @@ const About = () => {
               data-aos-duration="1000"
             >
               <h5 className="text-base text-khaki leading-[26px] font-medium">
-                LUXURY HOTEL AND RESORT
+                LEWI HOTELS AND RESORTS
               </h5>
               <h1 className="text-[22px] sm:text-2xl md:text-[21px]  xl:text-3xl 2xl:text-[38px] leading-6 md:leading-7 lg:leading-[30px] 2xl:leading-[44px] text-lightBlack dark:text-white font-semibold my-4">
-                LUXURY BEST HOTEL IN CITY CALIFORNIA, USA
+                LUXURY BEST HOTEL IN ETHIOPIA
               </h1>
               <p className="text-sm xl:text-base md:text-sm lg:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px]">
-                Rapidiously myocardinate cross-platform intellectual capital
-                after marketing model. Appropriately create interactive
-                infrastructures after maintainable are Holisticly facilitate
-                stand-alone inframe Compellingly create premier open data
-                through economically.
+                After Lewi Resort opened its doors, many of our guests have
+                personally discovered the beauty of Hawassa and Wolayta Sodo.
+                Lewi is a sparkling gem on the marvelous face of Hawassa and
+                Wolayta Sodo, and welcomes you to a refreshing new experience
+                with our professional staff.
               </p>
 
               <p className="text-sm sm:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px] mt-5">
@@ -88,12 +88,12 @@ const About = () => {
               </p>
 
               <div className="bg-whiteSmoke dark:bg-lightBlack px-[30px] py-5">
-                <p className="text-sm sm:text-base leading-10 3xl:leading-[50px] text-lightBlack dark:text-white font-medium font-Lora ">
+                {/* <p className="text-sm sm:text-base leading-10 3xl:leading-[50px] text-lightBlack dark:text-white font-medium font-Lora ">
                   102/B, Dream Street, New Elephant Road, Resort.
                 </p>
                 <p className="text-sm sm:text-base leading-10  text-lightBlack dark:text-white font-medium font-Lora ">
                   Dhanmondi Dhaka - 1212
-                </p>
+                </p> */}
               </div>
               <button className="btn-primary mt-[30px]">MORE ABOUT</button>
             </div>
@@ -106,7 +106,7 @@ const About = () => {
       {/* next --> */}
 
       {/* best hotel manager */}
-      <div className="bg-lightBlack -z-[1] py-20 2xl:py-[120px]">
+      {/* <div className="bg-lightBlack -z-[1] py-20 2xl:py-[120px]">
         <div className="Container ">
           <div className=" w-full grid grid-cols-1 lg:grid-cols-2 items-center ">
             <div
@@ -174,18 +174,18 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Expert Members */}
-      <div className="dark:bg-normalBlack py-20 2xl:py-[120px]">
+      {/* <div className="dark:bg-normalBlack py-20 2xl:py-[120px]">
         <div className="Container">
-          {/* section header */}
+        
           <div
             className="text-center sm:px-8 md:px-[80px] lg:px-[120px] xl:px-[200px] 2xl:px-[335px] mx-auto px-5 Container"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            {/* Section logo */}
+         
             <div className="flex items-center justify-center space-x-2">
               <hr className="w-[100px] h-[1px] bg-lightGray dark:bg-gray text-lightGray dark:text-gray" />
               <img
@@ -205,9 +205,9 @@ const About = () => {
             </p>
           </div>
 
-          {/* Section Content */}
+      
           <div className="mt-[60px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[30px] ">
-            {/* Member one */}
+      
             <div
               className="member group"
               data-aos="fade-up"
@@ -239,7 +239,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            {/* Member two */}
+        
             <div
               className="member group"
               data-aos="fade-down"
@@ -271,7 +271,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            {/* Member three */}
+        
             <div
               className="member group"
               data-aos="fade-up"
@@ -305,7 +305,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Clients Feedback */}
       <section className="bg-[#f8f6f3] dark:bg-lightBlack py-20 lg:py-[120px]">
@@ -371,15 +371,19 @@ const About = () => {
                     />
                   </span>
                   <p className="font-Lora text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray group-hover:text-white  font-normal mt-7 ">
-                    The owner and staff were extremely helpful and kind and took
-                    time to ensure that we had extra and places to visit.
+                    “We loved this place. After 10 days of dust and simple
+                    lodges we really enjoyed staying in the big and nice room on
+                    the water front (monkeys and waterbirds came very close).
+                    The staff is extremely friendly and helpful, the food of
+                    high standard. We will visit beautiful Ethiopia again and
+                    will return to Lewi Hotel.”
                   </p>
                 </div>
                 <div className="flex items-center mt-10 lg:mt-[51px]">
-                  <img src="/images/home-4/testi-1.jpg" alt="" />
+                  {/* <img src="/images/home-4/testi-1.jpg" alt="" /> */}
                   <div className="ml-5 md:ml-6">
                     <h4 className="text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond ">
-                      Marii Brown
+                      Downey Sarah
                     </h4>
                     <p className="text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray ">
                       Rome, Italy
@@ -413,15 +417,19 @@ const About = () => {
                     />
                   </span>
                   <p className="font-Lora text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray group-hover:text-white  font-normal mt-7 ">
-                    The owner and staff were extremely helpful and kind and took
-                    time to ensure that we had extra and places to visit.
+                    “Almost one year in Lewi resort, the first time in Hawassa I
+                    stayed in another hotel, but when I saw Lewi resort I
+                    changed immediately, people are very nice, all staff gave
+                    the necessary support I request The room was beautiful and
+                    well-equipped, room was large with a sitting area, many
+                    choices are available.”
                   </p>
                 </div>
                 <div className="flex items-center mt-10 lg:mt-[51px]">
-                  <img src="/images/home-4/testi-2.jpg" alt="" />
+                  {/* <img src="/images/home-4/testi-2.jpg" alt="" /> */}
                   <div className="ml-5 md:ml-6">
                     <h4 className="text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond ">
-                      John Doe
+                      Omer A
                     </h4>
                     <p className="text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray ">
                       Rome, Italy
@@ -455,15 +463,20 @@ const About = () => {
                     />
                   </span>
                   <p className="font-Lora text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray group-hover:text-white  font-normal mt-7 ">
-                    The owner and staff were extremely helpful and kind and took
-                    time to ensure that we had extra and places to visit.
+                    “We were on an overland trip from South Africa to Ethiopia
+                    and were fortunate to find this resort. After a hectic one
+                    month journey we greatly appreciated the facilities needed
+                    for thorough R&R. A picturesque lakeside terrace with
+                    refreshment service and extensive breakfast on offer,
+                    massage, super pool, first class restaurant, efficient staff
+                    and more.”
                   </p>
                 </div>
                 <div className="flex items-center mt-10 lg:mt-[51px]">
-                  <img src="/images/home-4/testi-3.jpg" alt="" />
+                  {/* <img src="/images/home-4/testi-3.jpg" alt="" /> */}
                   <div className="ml-5 md:ml-6">
                     <h4 className="text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond ">
-                      Ina Aldrich
+                      Henry d
                     </h4>
                     <p className="text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray ">
                       Rome, Italy
@@ -476,16 +489,16 @@ const About = () => {
         </div>
       </section>
       {/* Latest Blog */}
-
+      {/* 
       <div className=" dark:bg-normalBlack">
         <section className="Container py-20 lg:py-[120px]">
-          {/* Section Header */}
+          
           <div
             className=" text-center mx-auto  px-5 sm:px-8 md:px-[80px] lg:px-[120px] xl:px-[200px] 2xl:px-[335px]"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            {/* Section logo */}
+          
             <div className="flex items-center justify-center space-x-2 mb-4  ">
               <hr className="w-[100px] h-[1px] text-[#dedbd4] dark:text-[#3b3b3b] " />
               <img
@@ -505,12 +518,12 @@ const About = () => {
               resource-leveling
             </p>
           </div>
-          {/* all blogs are here */}
+        
           <div className="relative">
             <div className="mt-14 2xl:mt-[60px] keen-slider" ref={sliderRef}>
-              {/* slide - 1 */}
+             
               <div className="keen-slider__slide number-slide1 ">
-                {/* card one */}
+             
                 <div
                   className="overflow-hidden 3xl:w-[410px] group"
                   data-aos="fade-up"
@@ -559,7 +572,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* slide - 2 */}
+             
               <div className="keen-slider__slide number-slide1 ">
                 <div
                   className="overflow-hidden 3xl:w-[410px] group"
@@ -609,7 +622,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              {/* slide - 3 */}
+             
               <div className="keen-slider__slide number-slide1 ">
                 <div
                   className="overflow-hidden 3xl:w-[410px] group"
@@ -662,7 +675,7 @@ const About = () => {
             </div>
           </div>
         </section>
-      </div>
+      </div> */}
     </section>
   );
 };
