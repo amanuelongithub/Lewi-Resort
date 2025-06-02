@@ -201,7 +201,7 @@ const FindRoom = () => {
               <div className="relative">
                 <div className="overflow-hidden">
                   <img
-                    src="/images/home-1/room-1.jpg "
+                    src="/images/home-1/Lewi-Resort-Wolaita-Sodo-Deluxe-Double.jpg"
                     className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
                     alt=""
                   />
@@ -215,9 +215,9 @@ const FindRoom = () => {
               </div>
               <div className="font-Garamond">
                 <div className="px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] font-Lora font-normal leading-[26px]">
-                  <span className="">$560</span>
+                  <span className="">$62</span>
                   <span className="mx-2">|</span>
-                  <span>Night</span>
+                  <span>Day</span>
                 </div>
 
                 <div className=" border-[1px] border-[#e8e8e8] dark:border-[#424242] border-t-0">
@@ -227,12 +227,12 @@ const FindRoom = () => {
                     </h4>
                     <Link to="/room_details">
                       <h2 className="text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                        Double Suite Rooms
+                        Wolaita Sodo - Resort
                       </h2>
                     </Link>
-                    <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
+                    {/* <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
                       1500 SQ.FT/Rooms
-                    </p>
+                    </p> */}
                   </div>
                   <div className="  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5">
                     <div className="px-[30px] flex items-center justify-between">
@@ -277,7 +277,7 @@ const FindRoom = () => {
               <div className="relative">
                 <div className="overflow-hidden">
                   <img
-                    src="/images/home-1/room-2.jpg "
+                    src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
                     className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
                     alt=""
                   />
@@ -293,7 +293,7 @@ const FindRoom = () => {
                 <div className="px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center font-Lora font-normal leading-[26px] text-white  absolute top-[10px] right-[10px] ">
                   <span className="">$560</span>
                   <span className="mx-2">|</span>
-                  <span>Night</span>
+                  <span>Day</span>
                 </div>
 
                 <div className=" border-[1px] border-[#e8e8e8] dark:border-[#424242] border-t-0">
@@ -303,12 +303,12 @@ const FindRoom = () => {
                     </h4>
                     <Link to="/room_details">
                       <h2 className="text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                        Delux Family Rooms
+                        Hawassa Resort
                       </h2>
                     </Link>
-                    <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
+                    {/* <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
                       1500 SQ.FT/Rooms
-                    </p>
+                    </p> */}
                   </div>
                   <div className="  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5">
                     <div className="px-[30px] flex items-center justify-between">
@@ -353,8 +353,8 @@ const FindRoom = () => {
               <div className="relative">
                 <div className="overflow-hidden">
                   <img
-                    src="/images/home-1/room-3.jpg "
-                    className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
+                    src="/images/home-1/room-501.jpg "
+                    className="w-full h-[200px] object-cover group-hover:scale-110 transition-all duration-300"
                     alt=""
                   />
                 </div>
@@ -379,12 +379,12 @@ const FindRoom = () => {
                     </h4>
                     <Link to="/room_details">
                       <h2 className="text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                        Suprior Bed Rooms
+                        Hawassa Piassa
                       </h2>
                     </Link>
-                    <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
+                    {/* <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
                       1500 SQ.FT/Rooms
-                    </p>
+                    </p> */}
                   </div>
                   <div className="  border-t-[1px] border-[#e8e8e8] dark:border-[#424242] py-5">
                     <div className="px-[30px] flex items-center justify-between">
@@ -460,7 +460,7 @@ const FindRoom = () => {
                     Call Us Now
                   </p>
                   <p className="font-Garamond text-lg sm:text-xl md:text-[22px] leading-[26px] text-lightBlack dark:text-white font-medium">
-                    +980 123 (4567) 890
+                    +251 930 10 83 59
                   </p>
                 </div>
               </div>
@@ -478,7 +478,7 @@ const FindRoom = () => {
                     Send Email
                   </p>
                   <p className="font-Garamond text-lg sm:text-xl md:text-[22px] leading-[26px] text-lightBlack dark:text-white font-medium ">
-                    example@gmail.com
+                    Info@lewihotelsandresorts.com
                   </p>
                 </div>
               </div>
@@ -496,8 +496,9 @@ const FindRoom = () => {
                     Our Locations
                   </p>
                   <p className="font-Garamond text-lg sm:text-xl md:text-[22px] leading-[26px] text-lightBlack dark:text-white font-medium ">
-                    New elephant Road, Dhanmondi <br />
-                    Dhaka - 1212
+                    Hawassa, Ethiopia
+                    <br />
+                    Wolaita, Ethiopia
                   </p>
                 </div>
               </div>

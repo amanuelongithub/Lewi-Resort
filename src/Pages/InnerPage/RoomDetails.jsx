@@ -12,8 +12,8 @@ const RoomDetails = () => {
 
   const navigate = useNavigate();
   const images = [
-    "/images/inner/room-details-1.jpg",
-    "/images/inner/room-details-2.jpg",
+    "/images/home-1/room-501.jpg",
+    "/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg",
   ];
 
   const prevBtn = () => {
@@ -101,7 +101,7 @@ const RoomDetails = () => {
               >
                 {bookingsData && bookingsData.title
                   ? bookingsData.title
-                  : "Delux Family Rooms"}
+                  : "Deluxe bungalow"}
               </h2>
               <p
                 className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora"
@@ -346,7 +346,7 @@ const RoomDetails = () => {
                     className="text-khaki mr-2 md:mr-3 xl:mr-[15px]"
                   />
                   <span className="text-sm lg:text-[15px] leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                    2 - 5 Persons
+                    Max person 4
                   </span>
                 </div>
                 <div className="flex items-center py-5 border-b-[1px] border-lightGray dark:border-gray">
