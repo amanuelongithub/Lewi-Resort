@@ -74,11 +74,11 @@ const About = () => {
                 LUXURY BEST HOTEL IN ETHIOPIA
               </h1>
               <p className="text-sm xl:text-base md:text-sm lg:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px]">
-                After Lewi Resort opened its doors, many of our guests have
-                personally discovered the beauty of Hawassa and Wolayta Sodo.
-                Lewi is a sparkling gem on the marvelous face of Hawassa and
-                Wolayta Sodo, and welcomes you to a refreshing new experience
-                with our professional staff.
+                Lewi Hotels & Resorts is a proud national chain of hotels and resorts currently operating across Ethiopia. Our journey began with a simple mission: to create places "where happiness happens" and to share the warmth of authentic Southern hospitality with every guest.
+We believe in creating immersive experiences that blend the untouched beauty of Ethiopia with our deep-rooted cultural heritage. At our Sodo resort, you can experience traditional Southern design and cuisine amidst vibrant natural surroundings. In Arbaminch, we offer a rare glimpse into royal history, set within the former palace grounds of Emperor Haile Selassie.
+Our latest addition in Keffa Bonga invites you to the birthplace of wild Arabica coffee, a region celebrated for its rich biodiversity and UNESCO-recognized forests.
+At every Lewi property, every detail is crafted to provide genuine comfort and a memorable stay, connecting you with the heart and soul of Ethiopia.
+
               </p>
 
               <p className="text-sm sm:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px] mt-5">
