@@ -78,13 +78,10 @@ const About = () => {
 We believe in creating immersive experiences that blend the untouched beauty of Ethiopia with our deep-rooted cultural heritage. At our Sodo resort, you can experience traditional Southern design and cuisine amidst vibrant natural surroundings. In Arbaminch, we offer a rare glimpse into royal history, set within the former palace grounds of Emperor Haile Selassie.
 Our latest addition in Keffa Bonga invites you to the birthplace of wild Arabica coffee, a region celebrated for its rich biodiversity and UNESCO-recognized forests.
 At every Lewi property, every detail is crafted to provide genuine comfort and a memorable stay, connecting you with the heart and soul of Ethiopia.
-
               </p>
 
               <p className="text-sm sm:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px] mt-5">
-                Rapidiously myocardinate cross-platform intellectual capital
-                after marketing model. Appropriately create interactive
-                infrastructures after
+                
               </p>
 
               <div className="bg-whiteSmoke dark:bg-lightBlack px-[30px] py-5">
