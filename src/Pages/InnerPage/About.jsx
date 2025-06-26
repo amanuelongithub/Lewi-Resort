@@ -1,19 +1,10 @@
 import BreadCrumb from "../../BreadCrumb/BreadCrumb";
-import {
-  BsArrowRight,
-  BsChevronLeft,
-  BsChevronRight,
-  BsPlay,
-  BsTwitter,
-} from "react-icons/bs";
-import { FaFacebookF, FaLinkedinIn, FaPinterestP } from "react-icons/fa6";
+import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 import { useState } from "react";
 import { FaStar } from "react-icons/fa";
 import "../../Components4/Testimonial/testimonials.css";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import { Link } from "react-router-dom";
-import FsLightbox from "fslightbox-react";
 const About = () => {
   const [setCurrentSlide] = useState(0);
   // const [setLoaded] = useState(false);
@@ -41,50 +32,60 @@ const About = () => {
   });
 
   return (
-    <section className="">
-      <BreadCrumb title="About Us" home={""} />
+    <section className=''>
+      <BreadCrumb title='About Us' home={""} />
 
       {/* about content */}
-      <section className="dark:bg-mediumBlack">
-        <div className="Container py-20 2xl:py-[120px] sm:overflow-hidden lg:overflow-auto">
-          <div className="flex flex-col md:flex-row items-center justify-between">
+      <section className='dark:bg-mediumBlack'>
+        <div className='Container py-20 2xl:py-[120px] sm:overflow-hidden lg:overflow-auto'>
+          <div className='flex flex-col md:flex-row items-center justify-between'>
             {/* image */}
             <div
-              className="flex-1"
-              data-aos="zoom-in-up"
-              data-aos-duration="1000"
+              className='flex-1'
+              data-aos='zoom-in-up'
+              data-aos-duration='1000'
             >
               <img
-                src="/images/home-1/Lewi-Resort-Wolaita-Sodo-Exterior-2.jpg"
-                alt=""
-                className="w-full h-full"
+                src='/images/home-1/Lewi-Resort-Wolaita-Sodo-Exterior-2.jpg'
+                alt=''
+                className='w-full h-full'
               />
             </div>
 
             {/* text */}
             <div
-              className="mt-10 md:mt-0 md:ml-10 lg:ml-[90px] 2xl:ml-[100px] font-Garamond space-y-3 xl:space-y-4 flex-1"
-              data-aos="zoom-in-down"
-              data-aos-duration="1000"
+              className='mt-10 md:mt-0 md:ml-10 lg:ml-[90px] 2xl:ml-[100px] font-Garamond space-y-3 xl:space-y-4 flex-1'
+              data-aos='zoom-in-down'
+              data-aos-duration='1000'
             >
-              <h5 className="text-base text-khaki leading-[26px] font-medium">
+              <h5 className='text-base text-khaki leading-[26px] font-medium'>
                 LEWI HOTELS AND RESORTS
               </h5>
-              <h1 className="text-[22px] sm:text-2xl md:text-[21px]  xl:text-3xl 2xl:text-[38px] leading-6 md:leading-7 lg:leading-[30px] 2xl:leading-[44px] text-lightBlack dark:text-white font-semibold my-4">
+              <h1 className='text-[22px] sm:text-2xl md:text-[21px]  xl:text-3xl 2xl:text-[38px] leading-6 md:leading-7 lg:leading-[30px] 2xl:leading-[44px] text-lightBlack dark:text-white font-semibold my-4'>
                 A Passion for Hospitality
               </h1>
-              <p className="text-sm xl:text-base md:text-sm lg:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px]">
-                Lewi Hotels & Resorts is a proud national chain of hotels and resorts currently operating across Ethiopia. Our journey began with a simple mission: to create places "where happiness happens" and to share the warmth of authentic Southern hospitality with every guest.
-We believe in creating immersive experiences that blend the untouched beauty of Ethiopia with our deep-rooted cultural heritage. At our Sodo resort, you can experience traditional Southern design and cuisine amidst vibrant natural surroundings. In Arbaminch, we offer a rare glimpse into royal history, set within the former palace grounds of Emperor Haile Selassie.
-Our latest addition in Keffa Bonga invites you to the birthplace of wild Arabica coffee, a region celebrated for its rich biodiversity and UNESCO-recognized forests.
-At every Lewi property, every detail is crafted to provide genuine comfort and a memorable stay, connecting you with the heart and soul of Ethiopia.
+              <p className='text-sm xl:text-base md:text-sm lg:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px]'>
+                Lewi Hotels & Resorts is a proud national chain of hotels and
+                resorts currently operating across Ethiopia. Our journey began
+                with a simple mission: to create places "where happiness
+                happens" and to share the warmth of authentic Southern
+                hospitality with every guest. We believe in creating immersive
+                experiences that blend the untouched beauty of Ethiopia with our
+                deep-rooted cultural heritage. At our Sodo resort, you can
+                experience traditional Southern design and cuisine amidst
+                vibrant natural surroundings. In Arbaminch, we offer a rare
+                glimpse into royal history, set within the former palace grounds
+                of Emperor Haile Selassie. Our latest addition in Keffa Bonga
+                invites you to the birthplace of wild Arabica coffee, a region
+                celebrated for its rich biodiversity and UNESCO-recognized
+                forests. At every Lewi property, every detail is crafted to
+                provide genuine comfort and a memorable stay, connecting you
+                with the heart and soul of Ethiopia.
               </p>
 
-              <p className="text-sm sm:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px] mt-5">
-                
-              </p>
+              <p className='text-sm sm:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px] mt-5'></p>
 
-              <div className="bg-whiteSmoke dark:bg-lightBlack px-[30px] py-5">
+              <div className='bg-whiteSmoke dark:bg-lightBlack px-[30px] py-5'>
                 {/* <p className="text-sm sm:text-base leading-10 3xl:leading-[50px] text-lightBlack dark:text-white font-medium font-Lora ">
                   102/B, Dream Street, New Elephant Road, Resort.
                 </p>
@@ -92,7 +93,7 @@ At every Lewi property, every detail is crafted to provide genuine comfort and a
                   Dhanmondi Dhaka - 1212
                 </p> */}
               </div>
-              <button className="btn-primary mt-[30px]">MORE ABOUT</button>
+              <button className='btn-primary mt-[30px]'>MORE ABOUT</button>
             </div>
 
             {/* text */}
@@ -305,69 +306,69 @@ At every Lewi property, every detail is crafted to provide genuine comfort and a
       </div> */}
 
       {/* Clients Feedback */}
-      <section className="bg-[#f8f6f3] dark:bg-lightBlack py-20 lg:py-[120px]">
-        <div className="Container  ">
+      <section className='bg-[#f8f6f3] dark:bg-lightBlack py-20 lg:py-[120px]'>
+        <div className='Container  '>
           {/* Section heading */}
           <div
-            className="flex items-start justify-between relative "
-            data-aos="fade-up"
-            data-aos-duration="1000"
+            className='flex items-start justify-between relative '
+            data-aos='fade-up'
+            data-aos-duration='1000'
           >
-            <div className="space-y-3 md:w-[450px] xl:w-[550px] font-Garamond">
-              <h5 className="text-base text-khaki leading-[26px] font-medium">
+            <div className='space-y-3 md:w-[450px] xl:w-[550px] font-Garamond'>
+              <h5 className='text-base text-khaki leading-[26px] font-medium'>
                 LUXURY FEEDBACK
               </h5>
-              <h1 className="text-[22px] sm:text-3xl 2xl:text-[38px] leading-6 md:leading-[38px] lg:leading-[44px] text-lightBlack dark:text-white font-semibold uppercase">
+              <h1 className='text-[22px] sm:text-3xl 2xl:text-[38px] leading-6 md:leading-[38px] lg:leading-[44px] text-lightBlack dark:text-white font-semibold uppercase'>
                 resote clients feedback about services
               </h1>
             </div>
-            <div className="hidden sm:flex items-center lg:space-x-5  space-x-3 ">
-              <button className="lg:w-[50px] w-[30px] h-[30px] lg:h-[50px]  flex items-center justify-center border-[1px] border-[#cccbc8] text-[#cccbc8] hover:bg-khaki hover:border-none group">
-                <BsChevronLeft className="w-5 h-5 text-[#cccbc8] group-hover:text-white " />
+            <div className='hidden sm:flex items-center lg:space-x-5  space-x-3 '>
+              <button className='lg:w-[50px] w-[30px] h-[30px] lg:h-[50px]  flex items-center justify-center border-[1px] border-[#cccbc8] text-[#cccbc8] hover:bg-khaki hover:border-none group'>
+                <BsChevronLeft className='w-5 h-5 text-[#cccbc8] group-hover:text-white ' />
               </button>
               <button
-                className="lg:w-[50px] w-[30px] h-[30px] lg:h-[50px]  flex items-center justify-center border-[1px] border-[#cccbc8] text-[#cccbc8] hover:bg-khaki
-             hover:border-none group"
+                className='lg:w-[50px] w-[30px] h-[30px] lg:h-[50px]  flex items-center justify-center border-[1px] border-[#cccbc8] text-[#cccbc8] hover:bg-khaki
+             hover:border-none group'
               >
-                <BsChevronRight className="w-5 h-5 text-[#cccbc8]  group-hover:text-white" />
+                <BsChevronRight className='w-5 h-5 text-[#cccbc8]  group-hover:text-white' />
               </button>
             </div>
           </div>
-          <hr className="w-full h-[2px] text-[#e8e8e8] dark:text-[#383838]  mt-10 " />
+          <hr className='w-full h-[2px] text-[#e8e8e8] dark:text-[#383838]  mt-10 ' />
 
           {/* Clients Feedback  */}
           <div
-            className="relative"
-            data-aos="zoom-in-up"
-            data-aos-duration="1000"
+            className='relative'
+            data-aos='zoom-in-up'
+            data-aos-duration='1000'
           >
-            <div className="mt-[60px] keen-slider " ref={sliderRef}>
+            <div className='mt-[60px] keen-slider ' ref={sliderRef}>
               {/* slide - 1 */}
-              <div className="keen-slider__slide number-slide1 group ">
-                <div className="bg-white dark:bg-normalBlack group-hover:bg-khaki dark:hover:bg-khaki transition-all ease-in-out duration-500 p-[30px] relative before:absolute before:w-6 before:h-6 before:bg-white before:group-hover:bg-khaki  dark:before:bg-normalBlack before:rotate-45 before:left-[37px] before:-bottom-[13px] ">
-                  <span className="flex items-center space-x-[5px] md:space-x-2 xl:space-x-3">
+              <div className='keen-slider__slide number-slide1 group '>
+                <div className='bg-white dark:bg-normalBlack group-hover:bg-khaki dark:hover:bg-khaki transition-all ease-in-out duration-500 p-[30px] relative before:absolute before:w-6 before:h-6 before:bg-white before:group-hover:bg-khaki  dark:before:bg-normalBlack before:rotate-45 before:left-[37px] before:-bottom-[13px] '>
+                  <span className='flex items-center space-x-[5px] md:space-x-2 xl:space-x-3'>
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                   </span>
-                  <p className="font-Lora text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray group-hover:text-white  font-normal mt-7 ">
+                  <p className='font-Lora text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray group-hover:text-white  font-normal mt-7 '>
                     “We loved this place. After 10 days of dust and simple
                     lodges we really enjoyed staying in the big and nice room on
                     the water front (monkeys and waterbirds came very close).
@@ -376,44 +377,44 @@ At every Lewi property, every detail is crafted to provide genuine comfort and a
                     will return to Lewi Hotel.”
                   </p>
                 </div>
-                <div className="flex items-center mt-10 lg:mt-[51px]">
+                <div className='flex items-center mt-10 lg:mt-[51px]'>
                   {/* <img src="/images/home-4/testi-1.jpg" alt="" /> */}
-                  <div className="ml-5 md:ml-6">
-                    <h4 className="text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond ">
+                  <div className='ml-5 md:ml-6'>
+                    <h4 className='text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond '>
                       Downey Sarah
                     </h4>
-                    <p className="text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray ">
+                    <p className='text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray '>
                       Rome, Italy
                     </p>
                   </div>
                 </div>
               </div>
               {/* slide - 2 */}
-              <div className="keen-slider__slide number-slide1 group ">
-                <div className="bg-white dark:bg-normalBlack group-hover:bg-khaki dark:hover:bg-khaki transition-all ease-in-out duration-500 p-[30px] relative before:absolute before:w-6 before:h-6 before:bg-white before:group-hover:bg-khaki  dark:before:bg-normalBlack before:rotate-45 before:left-[37px] before:-bottom-[13px] ">
-                  <span className="flex items-center space-x-[5px] md:space-x-2 xl:space-x-3">
+              <div className='keen-slider__slide number-slide1 group '>
+                <div className='bg-white dark:bg-normalBlack group-hover:bg-khaki dark:hover:bg-khaki transition-all ease-in-out duration-500 p-[30px] relative before:absolute before:w-6 before:h-6 before:bg-white before:group-hover:bg-khaki  dark:before:bg-normalBlack before:rotate-45 before:left-[37px] before:-bottom-[13px] '>
+                  <span className='flex items-center space-x-[5px] md:space-x-2 xl:space-x-3'>
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                   </span>
-                  <p className="font-Lora text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray group-hover:text-white  font-normal mt-7 ">
+                  <p className='font-Lora text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray group-hover:text-white  font-normal mt-7 '>
                     “Almost one year in Lewi resort, the first time in Hawassa I
                     stayed in another hotel, but when I saw Lewi resort I
                     changed immediately, people are very nice, all staff gave
@@ -422,44 +423,44 @@ At every Lewi property, every detail is crafted to provide genuine comfort and a
                     choices are available.”
                   </p>
                 </div>
-                <div className="flex items-center mt-10 lg:mt-[51px]">
+                <div className='flex items-center mt-10 lg:mt-[51px]'>
                   {/* <img src="/images/home-4/testi-2.jpg" alt="" /> */}
-                  <div className="ml-5 md:ml-6">
-                    <h4 className="text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond ">
+                  <div className='ml-5 md:ml-6'>
+                    <h4 className='text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond '>
                       Omer A
                     </h4>
-                    <p className="text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray ">
+                    <p className='text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray '>
                       Rome, Italy
                     </p>
                   </div>
                 </div>
               </div>
               {/* slide - 3 */}
-              <div className="keen-slider__slide number-slide1 group ">
-                <div className="bg-white dark:bg-normalBlack group-hover:bg-khaki dark:hover:bg-khaki transition-all ease-in-out duration-500 p-[30px] relative before:absolute before:w-6 before:h-6 before:bg-white before:group-hover:bg-khaki  dark:before:bg-normalBlack before:rotate-45 before:left-[37px] before:-bottom-[13px] ">
-                  <span className="flex items-center space-x-[5px] md:space-x-2 xl:space-x-3">
+              <div className='keen-slider__slide number-slide1 group '>
+                <div className='bg-white dark:bg-normalBlack group-hover:bg-khaki dark:hover:bg-khaki transition-all ease-in-out duration-500 p-[30px] relative before:absolute before:w-6 before:h-6 before:bg-white before:group-hover:bg-khaki  dark:before:bg-normalBlack before:rotate-45 before:left-[37px] before:-bottom-[13px] '>
+                  <span className='flex items-center space-x-[5px] md:space-x-2 xl:space-x-3'>
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                     <FaStar
-                      className="text-khaki group-hover:text-white"
+                      className='text-khaki group-hover:text-white'
                       size={18}
                     />
                   </span>
-                  <p className="font-Lora text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray group-hover:text-white  font-normal mt-7 ">
+                  <p className='font-Lora text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray group-hover:text-white  font-normal mt-7 '>
                     “We were on an overland trip from South Africa to Ethiopia
                     and were fortunate to find this resort. After a hectic one
                     month journey we greatly appreciated the facilities needed
@@ -469,13 +470,13 @@ At every Lewi property, every detail is crafted to provide genuine comfort and a
                     and more.”
                   </p>
                 </div>
-                <div className="flex items-center mt-10 lg:mt-[51px]">
+                <div className='flex items-center mt-10 lg:mt-[51px]'>
                   {/* <img src="/images/home-4/testi-3.jpg" alt="" /> */}
-                  <div className="ml-5 md:ml-6">
-                    <h4 className="text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond ">
+                  <div className='ml-5 md:ml-6'>
+                    <h4 className='text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond '>
                       Henry d
                     </h4>
-                    <p className="text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray ">
+                    <p className='text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray '>
                       Rome, Italy
                     </p>
                   </div>
