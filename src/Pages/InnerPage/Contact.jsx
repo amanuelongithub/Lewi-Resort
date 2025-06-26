@@ -24,8 +24,11 @@ const Contact = () => {
                 CONTACT WITH US
               </h2>
               <p className="text-Lora text-sm sm:text-base leading-[26px]  text-gray dark:text-lightGray font-normal">
-               We would love to hear from you. For general inquiries regarding the Lewi Hotels & Resorts chain, please use the contact information below.
-                For reservations or specific questions about one of our locations, please navigate to the respective resort page for direct contact details.
+                We would love to hear from you. For general inquiries regarding
+                the Lewi Hotels & Resorts chain, please use the contact
+                information below. For reservations or specific questions about
+                one of our locations, please navigate to the respective resort
+                page for direct contact details.
               </p>
 
               {/* call */}
@@ -41,8 +44,7 @@ const Contact = () => {
                     Call Us Now
                   </p>
                   <p className="font-Garamond text-lg sm:text-xl md:text-[22px] leading-[26px] text-lightBlack dark:text-white font-medium">
-                    +251 916 31 31 31
-                    +251 930 28 00 00
+                    +251 916 31 31 31 +251 930 28 00 00
                   </p>
                 </div>
               </div>
@@ -78,11 +80,11 @@ const Contact = () => {
                     Our Locations
                   </p>
                   <p className="font-Garamond text-lg sm:text-xl md:text-[22px] leading-[26px] text-lightBlack dark:text-white font-medium ">
-                    Hawassa  </br>
-                    Arbaminch </br>
-                    Bonga </br>
-                    Wolaita Sodo </br>
-                    Lewi Bishoftu </br>
+                    Hawassa <br />
+                    Arbaminch <br />
+                    Bonga <br />
+                    Wolaita Sodo <br />
+                    Lewi Bishoftu <br />
                     Pissa
                   </p>
                 </div>
