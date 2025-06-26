@@ -24,10 +24,8 @@ const Contact = () => {
                 CONTACT WITH US
               </h2>
               <p className="text-Lora text-sm sm:text-base leading-[26px]  text-gray dark:text-lightGray font-normal">
-                Rapidiously myocardinate cross-platform intellectual capital
-                after the model. Appropriately create interactive
-                infrastructures after maintance Holisticly facilitate
-                stand-alone
+               We would love to hear from you. For general inquiries regarding the Lewi Hotels & Resorts chain, please use the contact information below.
+                For reservations or specific questions about one of our locations, please navigate to the respective resort page for direct contact details.
               </p>
 
               {/* call */}
@@ -43,7 +41,8 @@ const Contact = () => {
                     Call Us Now
                   </p>
                   <p className="font-Garamond text-lg sm:text-xl md:text-[22px] leading-[26px] text-lightBlack dark:text-white font-medium">
-                    +980 123 (4567) 890
+                    +251 916 31 31 31 </br>
+                    +251 930 28 00 00
                   </p>
                 </div>
               </div>
@@ -61,7 +60,7 @@ const Contact = () => {
                     Send Email
                   </p>
                   <p className="font-Garamond text-lg sm:text-xl md:text-[22px] leading-[26px] text-lightBlack dark:text-white font-medium ">
-                    example@gmail.com
+                    info@lewihotelsandresort.com
                   </p>
                 </div>
               </div>
@@ -79,8 +78,12 @@ const Contact = () => {
                     Our Locations
                   </p>
                   <p className="font-Garamond text-lg sm:text-xl md:text-[22px] leading-[26px] text-lightBlack dark:text-white font-medium ">
-                    New elephant Road, Dhanmondi <br />
-                    Dhaka - 1212
+                    Hawassa  </br>
+                    Arbaminch </br>
+                    Bonga </br>
+                    Wolaita Sodo </br>
+                    Lewi Bishoftu </br>
+                    Pissa
                   </p>
                 </div>
               </div>
