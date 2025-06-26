@@ -71,7 +71,7 @@ const About = () => {
                 LEWI HOTELS AND RESORTS
               </h5>
               <h1 className="text-[22px] sm:text-2xl md:text-[21px]  xl:text-3xl 2xl:text-[38px] leading-6 md:leading-7 lg:leading-[30px] 2xl:leading-[44px] text-lightBlack dark:text-white font-semibold my-4">
-                LUXURY BEST HOTEL IN ETHIOPIA
+                A Passion for Hospitality
               </h1>
               <p className="text-sm xl:text-base md:text-sm lg:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px]">
                 Lewi Hotels & Resorts is a proud national chain of hotels and resorts currently operating across Ethiopia. Our journey began with a simple mission: to create places "where happiness happens" and to share the warmth of authentic Southern hospitality with every guest.
