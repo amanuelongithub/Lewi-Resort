@@ -12,8 +12,8 @@ const RoomDetails = () => {
 
   const navigate = useNavigate();
   const images = [
-    "/images/home-1/room-501.jpg",
-    "/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg",
+    "/images/welita/1D6A5555.jpg",
+    "/images/welita/1D6A5597.jpg",
   ];
 
   const prevBtn = () => {
