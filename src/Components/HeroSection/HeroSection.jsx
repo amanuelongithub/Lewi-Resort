@@ -29,11 +29,7 @@ const HeroSection = () => {
       >
         {/* slider 1 */}
         <SwiperSlide>
-        <div
-  className="relative w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px] grid items-center justify-center text-white pb-[150px] lg:pb-16 xl:pb-0 overflow-hidden"
-  data-aos="fade-down"
->
-  {/* Background video */}
+        <div className="relative w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px] grid items-center justify-center text-white pb-[150px] lg:pb-16 xl:pb-0 overflow-hidden">
   <video
     className="absolute top-0 left-0 w-full h-full object-cover"
     autoPlay
@@ -44,10 +40,8 @@ const HeroSection = () => {
     <source src="/images/home-1/Lewishorttrailer.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-
-  {/* Semi-transparent overlay */}
   <div className="relative z-10 bg-[#1e1e1ede] bg-opacity-90 w-full h-full flex items-center justify-center">
-    {/* Your text or hero content goes here */}
+    {/* Your text/content goes here */}
   </div>
 </div>
 
