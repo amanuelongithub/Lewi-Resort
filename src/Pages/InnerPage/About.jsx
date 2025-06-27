@@ -71,7 +71,7 @@ const About = () => {
                 LEWI HOTELS AND RESORTS
               </h5>
               <h1 className="text-[22px] sm:text-2xl md:text-[21px]  xl:text-3xl 2xl:text-[38px] leading-6 md:leading-7 lg:leading-[30px] 2xl:leading-[44px] text-lightBlack dark:text-white font-semibold my-4">
-                A Passion for Hospitality
+                It Is A Place Where Happiness Happens.
               </h1>
               <p className="text-sm xl:text-base md:text-sm lg:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px]">
                 Lewi Hotels & Resorts is a proud national chain of hotels and resorts currently operating across Ethiopia. Our journey began with a simple mission: to create places "where happiness happens" and to share the warmth of authentic Southern hospitality with every guest.
@@ -315,7 +315,7 @@ At every Lewi property, every detail is crafted to provide genuine comfort and a
           >
             <div className="space-y-3 md:w-[450px] xl:w-[550px] font-Garamond">
               <h5 className="text-base text-khaki leading-[26px] font-medium">
-                LUXURY FEEDBACK
+                FEEDBACKS
               </h5>
               <h1 className="text-[22px] sm:text-3xl 2xl:text-[38px] leading-6 md:leading-[38px] lg:leading-[44px] text-lightBlack dark:text-white font-semibold uppercase">
                 resote clients feedback about services
@@ -380,10 +380,10 @@ At every Lewi property, every detail is crafted to provide genuine comfort and a
                   {/* <img src="/images/home-4/testi-1.jpg" alt="" /> */}
                   <div className="ml-5 md:ml-6">
                     <h4 className="text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond ">
-                      Downey Sarah
+                      Selam
                     </h4>
                     <p className="text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray ">
-                      Rome, Italy
+                      Addis Ababa
                     </p>
                   </div>
                 </div>
@@ -426,10 +426,10 @@ At every Lewi property, every detail is crafted to provide genuine comfort and a
                   {/* <img src="/images/home-4/testi-2.jpg" alt="" /> */}
                   <div className="ml-5 md:ml-6">
                     <h4 className="text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond ">
-                      Omer A
+                      Dawit 
                     </h4>
                     <p className="text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray ">
-                      Rome, Italy
+                      Addis Ababa
                     </p>
                   </div>
                 </div>
@@ -473,10 +473,10 @@ At every Lewi property, every detail is crafted to provide genuine comfort and a
                   {/* <img src="/images/home-4/testi-3.jpg" alt="" /> */}
                   <div className="ml-5 md:ml-6">
                     <h4 className="text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond ">
-                      Henry d
+                      Eyob
                     </h4>
                     <p className="text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray ">
-                      Rome, Italy
+                      Addis Ababa
                     </p>
                   </div>
                 </div>
