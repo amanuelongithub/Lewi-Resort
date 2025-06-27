@@ -366,9 +366,9 @@ const Room = () => {
                   SPA & Parlor Center
                 </h2>
                 <p className="text-sm sm:text-base font-Lora leading-[26px] text-lightGray">
-                  Rapidiously myocardinate cross-platform are model.
-                  Appropriately create interactive infrast Holisticly
-                  facilitate.
+                 
+
+
                 </p>
               </div>
               <Link
@@ -390,13 +390,13 @@ const Room = () => {
               <div className="keen-slider__slide number-slide1">
                 <div className="col-span-2 relative">
                   <img
-                    src="/images/inner/facilities-1.jpg"
+                    src="/images/"
                     className=""
                     alt=""
                   />
                   <div className="inline-flex items-center justify-between bg-lightBlack  hover:bg-whiteSmoke dark:hover:bg-white transition-all duration-300 w-[90%] float-right absolute bottom-0 right-[20px] group">
                     <p className="text-white text-lg sm:text-xl lg:text-[18px] xl:text-[22px]  group-hover:text-lightBlack leading-6 font-semibold font-Garamond px-5">
-                      Gym Training Ground
+                      Gym 
                     </p>
                     <button className="w-[30px] h-[30px] lg:w-[50px] lg:h-[50px]  flex items-center justify-center bg-khaki">
                       <HiArrowLongRight className="w-5 h-5 text-white    " />
@@ -408,13 +408,13 @@ const Room = () => {
               <div className="keen-slider__slide number-slide1">
                 <div className="col-span-2 relative">
                   <img
-                    src="/images/inner/facilities-2.jpg"
+                    src="/images"
                     className=""
                     alt=""
                   />
                   <div className="inline-flex items-center justify-between bg-lightBlack  hover:bg-whiteSmoke dark:hover:bg-white transition-all duration-300 w-[90%] float-right absolute bottom-0 right-[20px] group">
                     <p className="text-white text-lg sm:text-xl lg:text-[18px] xl:text-[22px]  group-hover:text-lightBlack leading-6 font-semibold font-Garamond px-5">
-                      Gym Training Ground
+                      Swimming 
                     </p>
                     <button className="w-[30px] h-[30px] lg:w-[50px] lg:h-[50px]  flex items-center justify-center bg-khaki">
                       <HiArrowLongRight className="w-5 h-5 text-white    " />
@@ -426,13 +426,13 @@ const Room = () => {
               <div className="keen-slider__slide number-slide1">
                 <div className="col-span-2 relative">
                   <img
-                    src="/images/inner/facilities-3.jpg"
+                    src="/images/ "
                     className=""
                     alt=""
                   />
                   <div className="inline-flex items-center justify-between bg-lightBlack  hover:bg-whiteSmoke dark:hover:bg-white transition-all duration-300 w-[90%] float-right absolute bottom-0 right-[20px] group">
                     <p className="text-white text-lg sm:text-xl lg:text-[18px] xl:text-[22px]  group-hover:text-lightBlack leading-6 font-semibold font-Garamond px-5">
-                      Gym Training Ground
+                      Massage 
                     </p>
                     <button className="w-[30px] h-[30px] lg:w-[50px] lg:h-[50px]  flex items-center justify-center bg-khaki">
                       <HiArrowLongRight className="w-5 h-5 text-white    " />
