@@ -12,8 +12,8 @@ const RoomDetails = () => {
 
   const navigate = useNavigate();
   const images = [
-    "images/Hawssa p/1D6A4632.jpg"
-    "images/Hawssa p/1D6A4874.jpg"
+    "images/Hawssa p/1D6A4632.jpg",
+    "images/Hawssa p/1D6A4874.jpg",
     "images/Hawssa p/1D6A4869.jpg", 
   ];
 
