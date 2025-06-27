@@ -12,8 +12,8 @@ const RoomDetails = () => {
 
   const navigate = useNavigate();
   const images = [
-    "/images/home-1/room-501.jpg",
-    "/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg",
+    "/images/Hawssa p/1D6A4632.jpg",
+    "/images/Hawssa p/1D6A4756 copy.jpg", 
   ];
 
   const prevBtn = () => {
@@ -53,7 +53,7 @@ const RoomDetails = () => {
   };
   return (
     <section className="">
-      <BreadCrumb title="room details" />
+      <BreadCrumb title="Hawassa " />
 
       {/* Room Details */}
       <div className="py-20 2xl:py-[120px] dark:bg-lightBlack">
@@ -66,7 +66,7 @@ const RoomDetails = () => {
               data-aos-duration="1000"
             >
               <img
-                src={images[imageIndex]}
+                src="Hawssa p/1D6A4756 copy.jpg"
                 alt=""
                 className="transition-all duration-500 delay-300"
               />
@@ -101,31 +101,27 @@ const RoomDetails = () => {
               >
                 {bookingsData && bookingsData.title
                   ? bookingsData.title
-                  : "Deluxe bungalow"}
+                  : "Hawassa "}d
               </h2>
               <p
                 className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora"
                 data-aos="zoom-in-up"
                 data-aos-duration="1000"
               >
-                Rapidiously myocardinate cross-platform intellectual capital
-                after marketing model. Appropriately create interactive
-                infrastructures after maintainable are Holisticly facilitate
-                stand-alone inframe extend state of the art benefits via
-                web-enabled value. Completely fabricate extensible infomediaries
-                rather than reliable e-services. Dramatically whiteboard
-                alternative
+               Lewi Resort Hawassa is a peaceful retreat located just steps from the beautiful shores of Lake Hawassa. 
+               Here, nature, comfort, and culture come together. Whether you’re visiting for business or leisure, our resort offers an unforgettable experience surrounded by lush greenery, cool breezes, and stunning lake views.
+
               </p>
               <p
                 className="mt-5 2xl:mt-7 text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora"
                 data-aos="zoom-in-up"
                 data-aos-duration="1000"
               >
-                Conveniently fashion pandemic potentialities for team driven
-                technologies. Proactively orchestrate robust systems rather than
-                user-centric vortals. Distinctively seize top-line e-commerce
-                with premier intellectual capital. Efficiently strategize
-                goal-oriented
+                Rooms & Suites Our resort offers a wide selection of rooms designed for comfort and relaxation. 
+                All rooms feature free Wi-Fi, air conditioning, a flat-screen TV, a minibar, and 24-hour room service.
+                    Standard Rooms: Cozy and well-furnished with modern amenities, ideal for solo travelers or short stays.
+                    Deluxe Rooms: Spacious with a private balcony overlooking the garden or lake, perfect for couples or small families.
+                    Suites: Elegantly designed with a separate living space, ideal for long stays or special occasions.
               </p>
               {/* Check-In and check-Out */}
               <div
@@ -186,14 +182,13 @@ const RoomDetails = () => {
                   className="pb-2 sm:pb-3 md:pb-4 lg:pb-[19px] 2xl:pb-6
                 font-Garamond text-[22px] sm:text-2xl md:text-3xl 2xl:text-[32px] leading-7 lg:leading-[26px] text-lightBlack dark:text-white font-semibold"
                 >
-                  House Rules
+                  Dining
                 </h2>
                 <p className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora">
-                  Professionally deliver fully researched scenarios with turnkey
-                  communities. Competently unleash empowered applications
-                  without seamless data. Uniquely underwhelm quality outsourcing
-                  before transparent relationships. Efficiently enhance diverse
-                  relationships whereas leveraged
+                  Enjoy a diverse menu of local and international cuisine in our lakeside restaurant.
+                - Main Restaurant: Serves breakfast, lunch, and dinner with indoor and outdoor seating options.
+                - Bar & Lounge: Relax with your favorite drink while enjoying panoramic views of the lake.
+                - Fresh Fish Specialties: Taste freshly caught tilapia and other regional favorites, prepared with a southern touch.
                 </p>
               </div>
               {/* Childreen & Extra Beds */}
@@ -206,37 +201,46 @@ const RoomDetails = () => {
                   className="pb-2 sm:pb-3 md:pb-4 lg:pb-[19px] 2xl:pb-6
                 font-Garamond text-[22px] sm:text-2xl md:text-3xl 2xl:text-[32px] leading-7 lg:leading-[26px] text-lightBlack dark:text-white font-semibold"
                 >
-                  Childreen & Extra Beds
+                  Amenities
                 </h2>
                 <p className="text-sm lg:text-base leading-6 text-gray dark:text-lightGray font-normal font-Lora mb-5 2xl:mb-[30px]">
-                  Applications without seamless data. Uniquely underwhelm
-                  quality outsourcing before transparent relationships.
-                  Efficiently enhance diverse relationships whereas leveraged
-                  new house cafe.
+                  Lewi Resort offers all the facilities you need for a refreshing and fulfilling stay:
                 </p>
                 <ul className="space-y-2 lg:space-y-3 ">
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Quickly generate bricks-and-clicks
+                      Swimming pool
                     </span>
                   </li>
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Interactively cultivate visionary platforms
+                      Wellness & spa centre, massage
                     </span>
                   </li>
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Energistically envisioneer resource
+                      Conference and meeting halls
                     </span>
                   </li>
                   <li className="flex items-center">
                     <BsCheck2 size={16} className="text-khaki mr-2" />
                     <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
-                      Uniquely restore turnkey paradigms
+                      24/7 front desk and security
+                    </span>
+                  </li>
+                   <li className="flex items-center">
+                    <BsCheck2 size={16} className="text-khaki mr-2" />
+                    <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
+                      Children’s play area
+                    </span>
+                  </li>
+                   <li className="flex items-center">
+                    <BsCheck2 size={16} className="text-khaki mr-2" />
+                    <span className="text-sm lg:text-base leading-[26px] text-gray dark:text-lightGray font-normal font-Lora">
+                      Fitness gym
                     </span>
                   </li>
                 </ul>

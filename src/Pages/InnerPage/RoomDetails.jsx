@@ -53,7 +53,7 @@ const RoomDetails = () => {
   };
   return (
     <section className="">
-      <BreadCrumb title="room details" />
+      <BreadCrumb title="Hawassa Rooms" />
 
       {/* Room Details */}
       <div className="py-20 2xl:py-[120px] dark:bg-lightBlack">
