@@ -61,11 +61,10 @@ const HotelAndResort = () => {
               LUXURY BEST HOTEL IN CITY CALIFORNIA, USA
             </h1> */}
             <p className="text-sm xl:text-base md:text-sm lg:text-base font-Lora text-gray dark:text-lightGray font-normal leading-[26px]">
-              After Lewi Resort opened its doors, many of our guests have
-              personally discovered the beauty of Hawassa and Wolayta Sodo. Lewi
-              is a sparkling gem on the marvelous face of Hawassa and Wolayta
-              Sodo, and welcomes you to a refreshing new experience with our
-              professional staff.
+              Lewi Hotels and Resorts is a national chain of hotels and resorts, currently owning and running a chain of hotels in Ethiopia. Our guiding principle is simple: to create places "where happiness happens".
+We are committed to blending the untouched beauty of Ethiopia with authentic cultural hospitality. In Sodo, our resort is nestled on over 54,000 square meters of lush greenery, offering an immersive experience enriched by traditional Southern design and cuisine. In Arbaminch, we offer a rare blend of royal legacy and modern comfort, set within the historic palace grounds of Emperor Haile Selassie overlooking the majestic twin lakes. Our latest addition, Lewi Resort Keffa Bonga, is nestled in the lush highlands of Bonga, a region renowned as the birthplace of wild Arabica coffee and home to the UNESCO-recognized Kafa Biosphere Reserve.
+At every Lewi property, we craft every detail to provide genuine comfort and a memorable stay.
+
             </p>
             <div className="flex items-center mt-4 md:mt-3 lg:mt-4">
               <div>
