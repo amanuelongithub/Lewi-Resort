@@ -214,9 +214,7 @@ const Rooms = () => {
               Lewi Hotels & Resorts
             </h1>
             <p className="font-Lora leading-[26px] text-gray dark:text-lightGray font-normal text-sm sm:text-base mt-[15px] lg:mt-0">
-              Proactively morph optimal infomediaries rather than accurate
-              expertise. Intrinsicly progressive resources rather than
-              resource-leveling
+
             </p>
           </div>
           {/* Rooms Slider Container */}
