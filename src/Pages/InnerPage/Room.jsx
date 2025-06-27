@@ -462,10 +462,9 @@ const Room = () => {
                 CONTACT WITH US
               </h2>
               <p className="text-Lora text-sm sm:text-base leading-[26px]  text-gray  font-normal">
-                Rapidiously myocardinate cross-platform intellectual capital
-                after the model. Appropriately create interactive
-                infrastructures after maintance Holisticly facilitate
-                stand-alone
+                We would love to hear from you. For general inquiries regarding the Lewi Hotels & Resorts chain, please use the contact information below.
+                For reservations or specific questions about one of our locations, please navigate to the respective resort page for direct contact details.
+
               </p>
 
               {/* call */}
@@ -481,7 +480,8 @@ const Room = () => {
                     Call Us Now
                   </p>
                   <p className="font-Garamond text-lg sm:text-xl md:text-[22px] leading-[26px] text-lightBlack  font-medium">
-                    +251 930 10 83 59
+                    +251 916 31 31 31
+                    +251 930 28 00 00
                   </p>
                 </div>
               </div>
@@ -520,6 +520,14 @@ const Room = () => {
                     Hawassa, Ethiopia
                     <br />
                     Wolaita, Ethiopia
+                      <br />                    
+                    Arbaminch, Ethiopia
+                      <br />
+                    Bonga, Ethiopia
+                      <br />
+                    Lewi Bishoftu, Ethiopia
+                      <br />
+                    Pissa, Ethiopia
                   </p>
                 </div>
               </div>
