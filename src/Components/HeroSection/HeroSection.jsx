@@ -33,6 +33,21 @@ const HeroSection = () => {
             className="bg-[url('/images/home-1/Lewishorttrailer.mp4')] w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px]  bg-[#1e1e1ede] bg-opacity-90 grid items-center bg-cover justify-center text-white relative pb-[150px] lg:pb-16 xl:pb-0 "
             data-aos="fade-down"
           >
+<div className="relative w-full h-screen overflow-hidden">
+  <video
+    className="absolute top-0 left-0 w-full h-full object-cover"
+    autoPlay
+    muted
+    loop
+    playsInline
+  >
+    <source src="/images/home-1/Lewishorttrailer.mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div className="relative z-10 w-full h-full bg-[#1e1e1ede] bg-opacity-90 flex flex-col items-center justify-center text-white">
+    {/* Your content goes here */}
+  </div>
+</div>
 
             
             <div className="font-Garamond 2xl:w-[720px] text-center">
