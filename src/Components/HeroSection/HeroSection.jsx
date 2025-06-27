@@ -33,8 +33,7 @@ const HeroSection = () => {
             className="bg-[url('/images/home-1/Lewishorttrailer.mp4')] w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px]  bg-[#1e1e1ede] bg-opacity-90 grid items-center bg-cover justify-center text-white relative pb-[150px] lg:pb-16 xl:pb-0 "
             data-aos="fade-down"
           >
-<div className="relative w-full h-screen overflow-hidden">
-  {/* Background video */}
+<div className="relative w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px] grid items-center justify-center text-white pb-[150px] lg:pb-16 xl:pb-0 overflow-hidden">
   <video
     className="absolute top-0 left-0 w-full h-full object-cover"
     autoPlay
@@ -42,18 +41,11 @@ const HeroSection = () => {
     loop
     playsInline
   >
-    <source src="/videos/Lewishorttrailer.mp4" type="video/mp4" />
+    <source src="/images/home-1/Lewishorttrailer.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-
-  {/* Semi-transparent overlay */}
-  <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-10"></div>
-
-  {/* Your hero content */}
-  <div className="relative z-20 flex flex-col items-center justify-center w-full h-full text-white">
-    <h1 className="text-4xl md:text-6xl font-bold">Lewi Resort</h1>
-    <p className="text-lg md:text-xl mt-4">Welcome to Paradise</p>
-    {/* add any button or other content here */}
+  <div className="relative z-10 bg-[#1e1e1ede] bg-opacity-90 w-full h-full flex items-center justify-center">
+    {/* Your text/content goes here */}
   </div>
 </div>
 
