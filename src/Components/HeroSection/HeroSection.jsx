@@ -29,7 +29,7 @@ const HeroSection = () => {
       >
         {/* slider 1 */}
         <SwiperSlide>
-          <div
+        <div
   className="relative w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px] grid items-center justify-center text-white pb-[150px] lg:pb-16 xl:pb-0 overflow-hidden"
   data-aos="fade-down"
 >
@@ -51,6 +51,8 @@ const HeroSection = () => {
   </div>
 </div>
 
+
+      
 
             
             <div className="font-Garamond 2xl:w-[720px] text-center">
