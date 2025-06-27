@@ -34,6 +34,7 @@ const HeroSection = () => {
             data-aos="fade-down"
           >
 <div className="relative w-full h-screen overflow-hidden">
+  {/* Background video */}
   <video
     className="absolute top-0 left-0 w-full h-full object-cover"
     autoPlay
@@ -41,13 +42,21 @@ const HeroSection = () => {
     loop
     playsInline
   >
-    <source src="/images/home-1/Lewishorttrailer.mp4" />
+    <source src="/videos/Lewishorttrailer.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-  <div className="relative z-10 w-full h-full bg-[#1e1e1ede] bg-opacity-90 flex flex-col items-center justify-center text-white">
-    {/* Your content goes here */}
+
+  {/* Semi-transparent overlay */}
+  <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-10"></div>
+
+  {/* Your hero content */}
+  <div className="relative z-20 flex flex-col items-center justify-center w-full h-full text-white">
+    <h1 className="text-4xl md:text-6xl font-bold">Lewi Resort</h1>
+    <p className="text-lg md:text-xl mt-4">Welcome to Paradise</p>
+    {/* add any button or other content here */}
   </div>
 </div>
+
 
             
             <div className="font-Garamond 2xl:w-[720px] text-center">
