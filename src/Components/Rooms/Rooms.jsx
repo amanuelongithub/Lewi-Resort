@@ -228,7 +228,7 @@ const Rooms = () => {
                     <div className="relative">
                       <div className="overflow-hidden">
                         <img
-                          src="/images/home-1/Lewi-Resort-Wolaita-Sodo-Deluxe-Double.jpg"
+                          src="/images/welita/1D6A5555.jpg"
                           className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
                           alt=""
                         />
