@@ -388,7 +388,7 @@ const Rooms = () => {
                     <div className="relative">
                       <div className="overflow-hidden">
                         <img
-                          src="/images/home-1/room-501.jpg "
+                          src="/images/40menche/1D6A5816.jpg "
                           className="w-full h-[200px] object-cover group-hover:scale-110 transition-all duration-300"
                           alt=""
                         />
@@ -416,7 +416,7 @@ const Rooms = () => {
                           </h4>
                           <Link to="/room">
                             <h2 className="text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                              Hawassa Piassa
+                              Arbamchi
                             </h2>
                           </Link>
                           {/* <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
