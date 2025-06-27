@@ -40,7 +40,7 @@ const Room = () => {
 
   return (
     <section className="">
-      <BreadCrumb title="ROOMS & SUITS" home={"/"} />
+      <BreadCrumb title="Lewi Resorts" home={"/"} />
 
       {/* All rooms */}
 
@@ -59,7 +59,7 @@ const Room = () => {
               <hr className="w-[100px] h-[1px] bg-lightGray dark:bg-gray text-lightGray dark:text-gray" />
             </div>
             <h1 className="text-[22px] sm:text-2xl md:text-3xl 2xl:text-[38px] leading-7 sm:leading-8 md:leading-9 lg:leading-[42px] 2xl:leading-[52px] text-lightBlack dark:text-white mt-[30px] mb-[24px] font-Garamond font-semibold uppercase">
-              Lewi’s Rooms & Suites
+              Lewi Resorts
             </h1>
           </div>
           {/* Rooms Slider Container */}
@@ -74,13 +74,13 @@ const Room = () => {
               <div className="relative">
                 <div className="overflow-hidden">
                   <img
-                    src="/images/rooms/standard-single.jpg"
+                    src="/images/welita/1D6A5555.jpg"
                     className="w-full h-full object-cover group-group-hover:scale-110 transition-all duration-300"
                     alt=""
                   />
                 </div>
                 <div className="px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] ">
-                  <span className="">65</span>
+                  <span className="">00</span>
                   <span className="mx-2">|</span>
                   <span>Day</span>
                 </div>
