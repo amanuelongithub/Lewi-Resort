@@ -30,8 +30,8 @@ const HeroSection = () => {
         {/* slider 1 */}
         <SwiperSlide>
           <div
-            className="bg-[url('/images/home-1/Lewi-Resort-Hawassa-Resort-View-1.jpg')] w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px]  bg-[#1e1e1ede] bg-opacity-90 grid items-center bg-cover justify-center text-white relative pb-[150px] lg:pb-16 xl:pb-0 "
-            data-aos='fade-down'
+            className="bg-[url('/images/home-1/Lewishorttrailer.mp4')] w-full h-[700px] md:h-[800px] xl:h-[850px] 3xl:h-[950px]  bg-[#1e1e1ede] bg-opacity-90 grid items-center bg-cover justify-center text-white relative pb-[150px] lg:pb-16 xl:pb-0 "
+            data-aos="fade-down"
           >
             <div className='font-Garamond 2xl:w-[720px] text-center'>
               <div className='flex space-x-2 items-center justify-center mb-5 lg:mb-6'>

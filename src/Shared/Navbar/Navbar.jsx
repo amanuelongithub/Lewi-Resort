@@ -135,7 +135,7 @@ const Navbar = () => {
               to="/room"
             >
               <span className="flex items-center">
-                Rooms
+                destinations
               
               </span>
            

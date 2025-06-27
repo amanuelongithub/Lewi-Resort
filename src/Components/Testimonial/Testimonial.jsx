@@ -102,7 +102,7 @@ const Testimonial = () => {
 
                 <div className="">
                   <h4 className="text-base lg:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond">
-                    Downey Sarah
+                    Dawit
                   </h4>
                   {/* <p className="pt-1 text-sm md:text-base leading-[26px] font-normal text-gray dark:text-lightGray flex items-center">
                     <span className="w-5 h-[1px] inline-block text-khaki bg-khaki mr-2"></span>
@@ -171,7 +171,7 @@ const Testimonial = () => {
 
                   <div className="">
                     <h4 className="text-base lg:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond">
-                      Downey Sarah
+                      Selam
                     </h4>
                     {/* <p className="pt-1 text-sm md:text-base leading-[26px] font-normal text-gray dark:text-lightGray flex items-center">
                       <span className="w-5 h-[1px] inline-block text-khaki bg-khaki mr-2"></span>
@@ -234,7 +234,7 @@ const Testimonial = () => {
 
                   <div className="">
                     <h4 className="text-base lg:text-[22px] leading-[26px] text-lightBlack dark:text-white font-semibold font-Garamond">
-                      Omer A
+                      Dawit
                     </h4>
                     {/* <p className="pt-1 text-sm md:text-base leading-[26px] font-normal text-gray dark:text-lightGray flex items-center">
                       <span className="w-5 h-[1px] inline-block text-khaki bg-khaki mr-2"></span>

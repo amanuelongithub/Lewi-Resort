@@ -22,9 +22,7 @@ const HotelAndFacilities = () => {
               HOTEL’S FACILITIES
             </h1>
             <p className="font-Lora leading-[26px] text-lightGray font-normal text-sm sm:text-base">
-              Proactively morph optimal infomediaries rather than accurate
-              expertise. Intrinsicly progressive resources rather than
-              resource-leveling
+              
             </p>
           </div>
           {/* HOTEL’S FACILITIES content */}

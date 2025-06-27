@@ -314,9 +314,9 @@ const About = () => {
             data-aos='fade-up'
             data-aos-duration='1000'
           >
-            <div className='space-y-3 md:w-[450px] xl:w-[550px] font-Garamond'>
-              <h5 className='text-base text-khaki leading-[26px] font-medium'>
-                LUXURY FEEDBACK
+            <div className="space-y-3 md:w-[450px] xl:w-[550px] font-Garamond">
+              <h5 className="text-base text-khaki leading-[26px] font-medium">
+                FEEDBACKS
               </h5>
               <h1 className='text-[22px] sm:text-3xl 2xl:text-[38px] leading-6 md:leading-[38px] lg:leading-[44px] text-lightBlack dark:text-white font-semibold uppercase'>
                 resote clients feedback about services
@@ -379,12 +379,12 @@ const About = () => {
                 </div>
                 <div className='flex items-center mt-10 lg:mt-[51px]'>
                   {/* <img src="/images/home-4/testi-1.jpg" alt="" /> */}
-                  <div className='ml-5 md:ml-6'>
-                    <h4 className='text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond '>
-                      Downey Sarah
+                  <div className="ml-5 md:ml-6">
+                    <h4 className="text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond ">
+                      Selam
                     </h4>
-                    <p className='text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray '>
-                      Rome, Italy
+                    <p className="text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray ">
+                      Addis Ababa
                     </p>
                   </div>
                 </div>
@@ -425,12 +425,12 @@ const About = () => {
                 </div>
                 <div className='flex items-center mt-10 lg:mt-[51px]'>
                   {/* <img src="/images/home-4/testi-2.jpg" alt="" /> */}
-                  <div className='ml-5 md:ml-6'>
-                    <h4 className='text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond '>
-                      Omer A
+                  <div className="ml-5 md:ml-6">
+                    <h4 className="text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond ">
+                      Dawit 
                     </h4>
-                    <p className='text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray '>
-                      Rome, Italy
+                    <p className="text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray ">
+                      Addis Ababa
                     </p>
                   </div>
                 </div>
@@ -472,12 +472,12 @@ const About = () => {
                 </div>
                 <div className='flex items-center mt-10 lg:mt-[51px]'>
                   {/* <img src="/images/home-4/testi-3.jpg" alt="" /> */}
-                  <div className='ml-5 md:ml-6'>
-                    <h4 className='text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond '>
-                      Henry d
+                  <div className="ml-5 md:ml-6">
+                    <h4 className="text-lg sm:text-xl md:text-2xl leading-[28px] text-[#041341] dark:text-white font-medium font-Garamond ">
+                      Eyob
                     </h4>
-                    <p className='text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray '>
-                      Rome, Italy
+                    <p className="text-sm sm:text-base leading-7 font-Lora font-normal text-gray dark:text-lightGray ">
+                      Addis Ababa
                     </p>
                   </div>
                 </div>

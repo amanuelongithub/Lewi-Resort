@@ -40,7 +40,7 @@ const Room = () => {
 
   return (
     <section className="">
-      <BreadCrumb title="ROOMS & SUITS" home={"/"} />
+      <BreadCrumb title="Lewi Resorts" home={"/"} />
 
       {/* All rooms */}
 
@@ -59,7 +59,7 @@ const Room = () => {
               <hr className="w-[100px] h-[1px] bg-lightGray dark:bg-gray text-lightGray dark:text-gray" />
             </div>
             <h1 className="text-[22px] sm:text-2xl md:text-3xl 2xl:text-[38px] leading-7 sm:leading-8 md:leading-9 lg:leading-[42px] 2xl:leading-[52px] text-lightBlack dark:text-white mt-[30px] mb-[24px] font-Garamond font-semibold uppercase">
-              Lewi’s Rooms & Suites
+              Lewi Resorts
             </h1>
           </div>
           {/* Rooms Slider Container */}
@@ -74,13 +74,13 @@ const Room = () => {
               <div className="relative">
                 <div className="overflow-hidden">
                   <img
-                    src="/images/rooms/standard-single.jpg"
+                    src="/images/welita/1D6A5555.jpg"
                     className="w-full h-full object-cover group-group-hover:scale-110 transition-all duration-300"
                     alt=""
                   />
                 </div>
                 <div className="px-5 3xl:px-6 py-2 inline-flex bg-khaki text-sm  items-center justify-center text-white  absolute top-[10px] right-[10px] ">
-                  <span className="">65</span>
+                  <span className="">00</span>
                   <span className="mx-2">|</span>
                   <span>Day</span>
                 </div>
@@ -366,9 +366,9 @@ const Room = () => {
                   SPA & Parlor Center
                 </h2>
                 <p className="text-sm sm:text-base font-Lora leading-[26px] text-lightGray">
-                  Rapidiously myocardinate cross-platform are model.
-                  Appropriately create interactive infrast Holisticly
-                  facilitate.
+                 
+
+
                 </p>
               </div>
               <Link
@@ -390,13 +390,13 @@ const Room = () => {
               <div className="keen-slider__slide number-slide1">
                 <div className="col-span-2 relative">
                   <img
-                    src="/images/inner/facilities-1.jpg"
+                    src="/images/"
                     className=""
                     alt=""
                   />
                   <div className="inline-flex items-center justify-between bg-lightBlack  hover:bg-whiteSmoke dark:hover:bg-white transition-all duration-300 w-[90%] float-right absolute bottom-0 right-[20px] group">
                     <p className="text-white text-lg sm:text-xl lg:text-[18px] xl:text-[22px]  group-hover:text-lightBlack leading-6 font-semibold font-Garamond px-5">
-                      Gym Training Ground
+                      Gym 
                     </p>
                     <button className="w-[30px] h-[30px] lg:w-[50px] lg:h-[50px]  flex items-center justify-center bg-khaki">
                       <HiArrowLongRight className="w-5 h-5 text-white    " />
@@ -408,13 +408,13 @@ const Room = () => {
               <div className="keen-slider__slide number-slide1">
                 <div className="col-span-2 relative">
                   <img
-                    src="/images/inner/facilities-2.jpg"
+                    src="/images"
                     className=""
                     alt=""
                   />
                   <div className="inline-flex items-center justify-between bg-lightBlack  hover:bg-whiteSmoke dark:hover:bg-white transition-all duration-300 w-[90%] float-right absolute bottom-0 right-[20px] group">
                     <p className="text-white text-lg sm:text-xl lg:text-[18px] xl:text-[22px]  group-hover:text-lightBlack leading-6 font-semibold font-Garamond px-5">
-                      Gym Training Ground
+                      Swimming 
                     </p>
                     <button className="w-[30px] h-[30px] lg:w-[50px] lg:h-[50px]  flex items-center justify-center bg-khaki">
                       <HiArrowLongRight className="w-5 h-5 text-white    " />
@@ -426,13 +426,13 @@ const Room = () => {
               <div className="keen-slider__slide number-slide1">
                 <div className="col-span-2 relative">
                   <img
-                    src="/images/inner/facilities-3.jpg"
+                    src="/images/ "
                     className=""
                     alt=""
                   />
                   <div className="inline-flex items-center justify-between bg-lightBlack  hover:bg-whiteSmoke dark:hover:bg-white transition-all duration-300 w-[90%] float-right absolute bottom-0 right-[20px] group">
                     <p className="text-white text-lg sm:text-xl lg:text-[18px] xl:text-[22px]  group-hover:text-lightBlack leading-6 font-semibold font-Garamond px-5">
-                      Gym Training Ground
+                      Massage 
                     </p>
                     <button className="w-[30px] h-[30px] lg:w-[50px] lg:h-[50px]  flex items-center justify-center bg-khaki">
                       <HiArrowLongRight className="w-5 h-5 text-white    " />
@@ -462,10 +462,9 @@ const Room = () => {
                 CONTACT WITH US
               </h2>
               <p className="text-Lora text-sm sm:text-base leading-[26px]  text-gray  font-normal">
-                Rapidiously myocardinate cross-platform intellectual capital
-                after the model. Appropriately create interactive
-                infrastructures after maintance Holisticly facilitate
-                stand-alone
+                We would love to hear from you. For general inquiries regarding the Lewi Hotels & Resorts chain, please use the contact information below.
+                For reservations or specific questions about one of our locations, please navigate to the respective resort page for direct contact details.
+
               </p>
 
               {/* call */}
@@ -481,7 +480,8 @@ const Room = () => {
                     Call Us Now
                   </p>
                   <p className="font-Garamond text-lg sm:text-xl md:text-[22px] leading-[26px] text-lightBlack  font-medium">
-                    +251 930 10 83 59
+                    +251 916 31 31 31
+                    +251 930 28 00 00
                   </p>
                 </div>
               </div>
@@ -520,6 +520,14 @@ const Room = () => {
                     Hawassa, Ethiopia
                     <br />
                     Wolaita, Ethiopia
+                      <br />                    
+                    Arbaminch, Ethiopia
+                      <br />
+                    Bonga, Ethiopia
+                      <br />
+                    Lewi Bishoftu, Ethiopia
+                      <br />
+                    Pissa, Ethiopia
                   </p>
                 </div>
               </div>

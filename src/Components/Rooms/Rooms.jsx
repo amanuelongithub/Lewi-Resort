@@ -214,9 +214,7 @@ const Rooms = () => {
               Lewi Hotels & Resorts
             </h1>
             <p className="font-Lora leading-[26px] text-gray dark:text-lightGray font-normal text-sm sm:text-base mt-[15px] lg:mt-0">
-              Proactively morph optimal infomediaries rather than accurate
-              expertise. Intrinsicly progressive resources rather than
-              resource-leveling
+
             </p>
           </div>
           {/* Rooms Slider Container */}
@@ -230,7 +228,7 @@ const Rooms = () => {
                     <div className="relative">
                       <div className="overflow-hidden">
                         <img
-                          src="/images/home-1/Lewi-Resort-Wolaita-Sodo-Deluxe-Double.jpg"
+                          src="/images/welita/1D6A5555.jpg"
                           className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
                           alt=""
                         />
@@ -258,7 +256,7 @@ const Rooms = () => {
                           </h4>
                           <Link to="/room">
                             <h2 className="text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                              Wolaita Sodo - Resort
+                              Wolaita Sodo 
                             </h2>
                           </Link>
                           {/* <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
@@ -310,7 +308,7 @@ const Rooms = () => {
                     <div className="relative">
                       <div className="overflow-hidden">
                         <img
-                          src="/images/home-1/Lewi-resort-Hawassa-Deluxe-Bungalow.jpg"
+                          src="/images/Hawssa p/1D6A4756 copy.jpg" 
                           className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
                           alt=""
                         />
@@ -338,7 +336,7 @@ const Rooms = () => {
                           </h4>
                           <Link to="/room">
                             <h2 className="text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                              Hawassa Resort
+                              Hawassa 
                             </h2>
                           </Link>
                           {/* <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
@@ -390,7 +388,7 @@ const Rooms = () => {
                     <div className="relative">
                       <div className="overflow-hidden">
                         <img
-                          src="/images/home-1/room-501.jpg "
+                          src="/images/40menche/1D6A5815.jpg"
                           className="w-full h-[200px] object-cover group-hover:scale-110 transition-all duration-300"
                           alt=""
                         />
@@ -418,7 +416,7 @@ const Rooms = () => {
                           </h4>
                           <Link to="/room">
                             <h2 className="text-2xl lg:text-[28px] leading-[26px] font-semibold text-lightBlack dark:text-white py-4">
-                              Hawassa Piassa
+                              Arbamchi
                             </h2>
                           </Link>
                           {/* <p className="text-sm font-normal text-gray  dark:text-lightGray font-Lora">
