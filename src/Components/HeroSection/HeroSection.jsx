@@ -34,8 +34,7 @@ const HeroSection = () => {
             data-aos="fade-down"
           >
 
-      
-
+    
             
             <div className="font-Garamond 2xl:w-[720px] text-center">
               <div className="flex space-x-2 items-center justify-center mb-5 lg:mb-6">
